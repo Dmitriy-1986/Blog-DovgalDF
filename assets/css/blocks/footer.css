@@ -1,0 +1,17 @@
+.footer {
+    background-color: #212121;
+    height: 80px;
+    
+}
+
+.footer .container {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.footer p {
+
+    text-align: left;
+    color: #ccc;
+}
