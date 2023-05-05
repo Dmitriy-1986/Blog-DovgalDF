@@ -33,6 +33,7 @@
 }
 
 .post-go-blog img {
+    display: block;
     max-width: 500px;
 }
 
