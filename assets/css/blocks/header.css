@@ -1,14 +1,16 @@
-.header {
+/* HEADER */
+header {
     position: relative;
     min-height: 100vh !important;
     width: 100% !important;
-    background-image: url(../../img/header-img.jpg);
+    background-image: url(../img/header-img.jpg);
     background-position: top !important;
     background-size: cover !important;
     background-attachment: fixed !important;
+    overflow: hidden;
 }
 
-.header::before {
+header::before {
     content: "";
     position: absolute;
     top: 0;
@@ -20,16 +22,16 @@
 }
 
 .header-nav {
-   position: relative;
+    position: relative;
     z-index: 2;
     padding-top: 25px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;    
+    align-items: center;
 }
 
-.header .title-logo a {
+header .title-logo a {
     text-transform: uppercase;
     text-decoration: none;
     color: white;
@@ -51,14 +53,14 @@
 }
 
 .header-nav ul li:hover {
-   border-bottom: 4px solid #303f9f;
+    border-bottom: 4px solid #303f9f;
 }
 
 .header-nav ul li a {
     text-transform: uppercase;
     text-decoration: none;
     font-weight: 600;
-    padding: 0 0 10px 0; 
+    padding: 0 0 10px 0;
     color: white;
 }
 
@@ -69,4 +71,39 @@
     color: #ffffff;
     text-transform: uppercase;
     text-align: center;
+}
+
+.scroll-down {
+    position: relative;
+    top: 40vh;
+    left: 50%;
+    z-index: 2;
+    display: inline-flex;
+    width: 25px;
+    height: 50px;
+    border: 3px solid #303f9f;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.mouse-wheel {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: #303f9f;
+    border-radius: 50%;
+    margin: auto;
+    animation: moveWheel 1.25s linear infinite;
+}
+
+@keyframes moveWheel {
+    0% {
+        opacity: 1;
+        translate: 0 -16px;
+    }
+
+    100% {
+        opacity: 0;
+        translate: 0 16px;
+    }
 }
