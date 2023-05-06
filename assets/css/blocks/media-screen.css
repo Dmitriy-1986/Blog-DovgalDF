@@ -1,5 +1,5 @@
 /* MEDIA SCREEN  */
-
+/* Max Width */
 @media (max-width: 1100px) {
     .content-cards {
         grid-template-columns: 1fr;
@@ -38,5 +38,33 @@
 
     .scroll-down {
         top: 30vh;
+    }
+}
+
+
+/* Max Height */
+@media (max-height: 500px) {
+    .header-title {
+        top: 10vh;
+    }
+
+    .scroll-down {
+        top: 20vh;
+    }
+}
+
+@media (max-height: 400px) {
+    .header-title {
+        top: 5vh;
+    }
+
+    .scroll-down {
+        top: 10vh;
+    }
+}
+
+@media (max-height: 400px) {
+    .scroll-down {
+        display: none;
     }
 }
