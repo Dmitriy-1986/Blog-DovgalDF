@@ -3,7 +3,7 @@ header {
     position: relative;
     min-height: 100vh !important;
     width: 100% !important;
-    background-image: url(../img/header-img.jpg);
+    background-image: url(../../img/header-img.jpg);
     background-position: top !important;
     background-size: cover !important;
     background-attachment: fixed !important;
