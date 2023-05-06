@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog :: Dovgal D.F.</title>
+    <title>Blog::Dovgal D.F.</title>
 
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
@@ -16,13 +16,12 @@
         <!-- HEADER -->
         <header>
             <div class="container header-nav">
-                <h1 class="title-logo"><a href="./index.html">Blog::Dovgal D.F.</a></h1>
+                <h1 class="title-logo"><a class="blog-name" href="./index.html">Blog::Dovgal D.F.</a></h1>
                 <nav>
                     <ul>
-                        <li class="active"><a href="#">Главная</a></li>
-                        <li><a href="#">Обо мне</a></li>
-                        <li><a href="#">Блог</a></li>
-                        <li><a href="#">Контакты</a></li>
+                        <li class="active"><a id="menuNavHome" href="#">Главная</a></li>
+                        <li><a id="menuNavBlog" href="./blog.html">Блог</a></li>
+                        <li><a id="menuNavAbout" href="https:dovgaldima.pp.ua">Обо мне</a></li>
                     </ul>
                 </nav>
             </div>
@@ -40,103 +39,23 @@
             <!-- BLOCK -->
             <div class="block">
                 <div class="block-title">
-                    <h2>СВЕЖИЕ СТАТЬИ</h2>
+                    <h2 id="freshTitle">СВЕЖИЕ СТАТЬИ</h2>
                 </div>
 
-                <div class="content-cards">
-
-                    <!-- CARD -->
-                    <div class="card">
-                        <div>
-                            <a href=""><img src="./assets/img/code.jpg" alt="IMG"></a>
-                        </div>
-                        <div class="desc">
-                            <h4><a href="">Title Desc</a></h4>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, repellendus? 
-                            </p>
-                        </div>
-                    </div>
-
-                    <!-- CARD -->
-                    <div class="card">
-                        <div>
-                            <a href=""><img src="./assets/img/code.jpg" alt="IMG"></a>
-                        </div>
-                        <div class="desc">
-                            <h4><a href="">Title Desc</a></h4>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, repellendus? 
-                            </p>
-                        </div>
-                    </div>
-
-                    <!-- CARD -->
-                    <div class="card">
-                        <div>
-                            <a href=""><img src="./assets/img/code.jpg" alt="IMG"></a>
-                        </div>
-                        <div class="desc">
-                            <h4><a href="">Title Desc</a></h4>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, repellendus? 
-                            </p>
-                        </div>
-                    </div>
-
-                    <!-- CARD -->
-                    <div class="card">
-                        <div>
-                            <a href=""><img src="./assets/img/code.jpg" alt="IMG"></a>
-                        </div>
-                        <div class="desc">
-                            <h4><a href="">Title Desc</a></h4>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, repellendus? 
-                            </p>
-                        </div>
-                    </div>
-
-                    <!-- CARD -->
-                    <div class="card">
-                        <div>
-                            <a href=""><img src="./assets/img/code.jpg" alt="IMG"></a>
-                        </div>
-                        <div class="desc">
-                            <h4><a href="">Title Desc</a></h4>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, repellendus? 
-                            </p>
-                        </div>
-                    </div>
-
-                    <!-- CARD -->
-                    <div class="card">
-                        <div>
-                            <a href=""><img src="./assets/img/code.jpg" alt="IMG"></a>
-                        </div>
-                        <div class="desc">
-                            <h4><a href="">Title Desc</a></h4>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, repellendus? 
-                            </p>
-                        </div>
-                    </div>
-                   
-                </div>
+                <div id="contentCards" class="content-cards"></div>
 
             </div>
 
             <!-- BLOCK -->
             <div class="block">
                 <div class="block-title">
-                    <h2>БЛОГ</h2>
+                    <h2 id="blogArticle">БЛОГ</h2>
                 </div>
 
                 <div class="block-content">
                     <div class="content">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, repellendus?</p>
-                        <button class="btn btn-primary">Читать Больше</button>
+                        <p id="descriptionBlogArticle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, repellendus?</p>
+                        <a href="./blog.html"><button class="btn btn-primary">Читать Больше</button></a> 
                     </div>
                     <div class="image">
                         <img src="./assets/img/blog-img.jpg" alt="IMG">
@@ -148,11 +67,12 @@
 
         <footer>
             <div class="container">
-                <p>2023 © Blog::Dovgal D.F.</p>
+                <p><span id="fullYear"></span> © <span  class="blog-name">Blog::Dovgal D.F.</span></p>
             </div>
         </footer>
     </div>
 
+    <script src="./assets/js/data.js"></script>
     <script src="./assets/js/script.js"></script>
 </body>
 
