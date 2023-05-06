@@ -49,7 +49,7 @@ for (let i = data.cardsArticle.length - numLastObjects; i < data.cardsArticle.le
                         </div>
                         <div class="desc">
                             <h4><a href="${data.cardsArticle[i].linkPageInCard}">${data.cardsArticle[i].titleCard}</a></h4>
-                            <p>${data.cardsArticle[i].descriptionCard.slice(0, 70 - 3)}<a href="${data.cardsArticle[i].linkPageInCard}">[...]</a></p>
+                            <p>${data.cardsArticle[i].descriptionCard.slice(0, 60 - 3)}<a href="${data.cardsArticle[i].linkPageInCard}">[...]</a></p>
                         </div>`;
     contentCards.append(card);
 }
