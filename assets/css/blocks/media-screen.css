@@ -17,6 +17,10 @@
 }
 
 @media (max-width: 768px) {
+     .header-nav {
+        flex-direction: column;
+    }
+    
     .block-content {
         flex-direction: column;
     }
@@ -28,10 +32,6 @@
 }
 
 @media (max-width: 600px) {
-    .header-nav {
-        flex-direction: column;
-    }
-
     .header-title {
         top: 20vh;
     }
