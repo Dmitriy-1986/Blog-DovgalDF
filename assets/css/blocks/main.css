@@ -1,48 +1,50 @@
-.main {
-    color: #333;
-    margin: 50px 0 100px 0;
+/* MAIN */
+.wrapper {
+    display: grid;
 }
 
-.post-title {
+header {
+    min-height: 100vh;
+}
+
+.wrapper main {
+    display: grid;
+    grid-gap: 10px;
+    padding: 10px;
+    max-width: 1100px;
+    margin: 0 auto;
+    color: #333;
+}
+
+.block {
+    margin: 50px 0 50px 0;
+}
+
+.block-title h2 {
     text-align: center;
     text-transform: uppercase;
-    width: 100%;
-    padding: 60px 0 50px 0;
 }
 
-.main .post {
-    display: grid;
-    grid-template-columns: 100px 1fr;
-    align-items: center;
-    margin: 8px;
+.block-content {
+    display: flex;
+    flex-direction: row;
 }
 
-.main .post img {
-    width: 100px;
-    border-radius: 3px;
-}
-
-.main .post .desc {
-    margin: 0 0 0 8px;
-}
-
-/* Post go blog */
-.post-go-blog {
+.block-content .content,
+.image {
     display: flex;
     align-items: center;
+    justify-content: center;
+    padding: 10px;
+    max-width: 50%;
 }
 
-.post-go-blog img {
-    display: block;
-    max-width: 500px;
+.block-content .content {
+    flex-direction: column;
+    align-items: flex-start;
 }
 
-.post-go-blog h4 {
-    font-size: 24px;
-    padding: 10px 0 10px 0;
-}
-
-.post-go-blog button {
+.block-content .content button {
     margin-top: 20px;
     padding: 8px 25px 8px 25px;
 }
@@ -64,15 +66,6 @@
     border-radius: 0.25rem;
 }
 
-.btn:focus {
-    outline: 0;
-    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
-}
-
-.btn:hover {
-    color: #212529;
-}
-
 .btn-primary {
     color: #fff;
     background-color: #0d6efd;
@@ -91,3 +84,42 @@
     border-color: #0a58ca;
     box-shadow: 0 0 0 0.25rem rgba(49, 132, 253, 0.5);
 }
+
+.block-content .image img {
+    max-width: 100%;
+}
+
+
+/* CARDS */
+.content-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    min-height: 50vh;
+}
+
+.content-cards .card {
+    display: grid;
+    grid-template-columns: 120px 1fr;
+    align-items: center;
+    margin: 8px;
+}
+
+.content-cards .card img {
+    width: 120px;
+    border-radius: 3px;
+}
+
+.content-cards .card .desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 400px;
+    height: 70px;
+    margin: 0 0 0 8px;
+}
+
+.content-cards .card .desc h4,
+p {
+    margin: 0;
+}
+
