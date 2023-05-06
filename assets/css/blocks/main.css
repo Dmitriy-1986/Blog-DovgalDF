@@ -44,6 +44,10 @@ header {
     align-items: flex-start;
 }
 
+.block-content .content p {
+    line-height: 2em;
+}
+
 .block-content .content button {
     margin-top: 20px;
     padding: 8px 25px 8px 25px;
