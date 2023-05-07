@@ -9,7 +9,7 @@ const data = {
         "linkNavMenu": {
             "homePage": "./index.html",
             "blogPage": "./blog.html",
-            "aboutPage": "./dovgaldima.pp.ua" 
+            "aboutPage": "https://dovgaldima.pp.ua" 
         }
     },
     "headerTitle": "БЛОГ О WEB - РАЗРАБОТКЕ",
