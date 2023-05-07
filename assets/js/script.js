@@ -20,12 +20,12 @@ menuNavHome.innerHTML = data.navMenu.nameNavMenu.homePage;
 menuNavHome.href =  data.navMenu.linkNavMenu.homePage;
 
 menuNavBlog = document.querySelector('#menuNavBlog');
-menuNavHome.innerHTML = data.navMenu.nameNavMenu.blogPage;
-menuNavHome.href =  data.navMenu.linkNavMenu.blogPage;
+menuNavBlog.innerHTML = data.navMenu.nameNavMenu.blogPage;
+menuNavBlog.href =  data.navMenu.linkNavMenu.blogPage;
 
 menuNavAbout = document.querySelector('#menuNavAbout');
-menuNavHome.innerHTML = data.navMenu.nameNavMenu.aboutPage;
-menuNavHome.href =  data.navMenu.linkNavMenu.aboutPage;
+menuNavAbout.innerHTML = data.navMenu.nameNavMenu.aboutPage;
+menuNavAbout.href =  data.navMenu.linkNavMenu.aboutPage;
 
 /* Header Title */
 const headerTitle = document.querySelector('.header-title');
