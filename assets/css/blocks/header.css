@@ -72,13 +72,12 @@ header .title-logo a {
 
 .header-nav li a {
     color: #fff !important;
-    font-weight: 600;
     font-size: 1.2em;
     padding: 0;
     position: relative; 
     transition: 0.5s all;
     text-decoration: none;
-    font-weight: 300;
+    font-weight: 600;
 }
 
 .header-nav li a.active:after {
