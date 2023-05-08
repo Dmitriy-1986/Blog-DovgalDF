@@ -3,6 +3,9 @@
 * Large */
 @media (max-width: 1100px) {
    /* styles */
+   .content-cards .card .desc {
+       width: 300px;
+   }
 }
 
 /* Laptops */
