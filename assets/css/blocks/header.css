@@ -82,7 +82,7 @@ header .title-logo a {
 
 .header-nav li a.active:after {
     backface-visibility: hidden;
-    border-color: #0fdfe2;
+    border-color: #303f9f;
     transition: width 350ms ease-in-out;
     width: 100%;
 }
