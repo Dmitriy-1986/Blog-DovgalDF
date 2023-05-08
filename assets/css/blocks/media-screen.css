@@ -1,9 +1,11 @@
-/* MEDIA SCREEN  */
-/* Max Width */
+/* MEDIA SCREEN  
+* Max Width 
+* Large */
 @media (max-width: 1100px) {
    /* styles */
 }
 
+/* Laptops */
 @media (max-width: 992px) {
     .content-cards {
         grid-template-columns: 1fr;
@@ -16,6 +18,7 @@
     }
 }
 
+/* Tablets */
 @media (max-width: 768px) {
      .header-nav {
         flex-direction: column;
@@ -31,6 +34,7 @@
     }
 }
 
+/* Phones */
 @media (max-width: 600px) {
     .header-title {
         top: 20vh;
