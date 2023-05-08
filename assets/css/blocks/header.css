@@ -40,7 +40,7 @@ header .title-logo a {
 .header-nav ul {
     list-style: none;
 }
-
+/*
 .header-nav ul li {
     display: inline;
     margin: 5px;
@@ -63,7 +63,60 @@ header .title-logo a {
     padding: 0 0 10px 0;
     color: white;
 }
+*/
 
+.header-nav li { 
+    display: inline-block;
+	margin:0 1.5em;
+}
+
+.header-nav li a {
+    color: #fff !important;
+    font-size: 1.2em;
+    padding: 0;
+    position: relative; 
+    transition: 0.5s all;
+    text-decoration: none;
+	font-weight: 300;
+}
+
+.header-nav li a.active:after {
+    backface-visibility: hidden;
+    border-color: #0fdfe2;
+    transition: width 350ms ease-in-out;
+    width: 100%;
+}
+
+.header-nav li a:after {
+    backface-visibility: hidden;
+    border: 1px solid rgba(255, 255, 255, 0);
+    bottom: -3px;
+    content: " ";
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    transition: all 280ms ease-in-out;
+    width: 0;
+}
+
+.header-nav li a:hover:after {
+    backface-visibility: hidden;
+    border-color: #0fdfe2;
+    transition: width 350ms ease-in-out;
+    width: 100%;
+}
+
+.header-nav li a:hover {
+    color: #0fdfe2 !important;
+    outline: none;
+}
+
+.header-nav li  a.active {
+    color: #0fdfe2 !important;
+	outline: none;
+} 
+
+/* Header Title */
 .header-title {
     position: relative;
     z-index: 2;
