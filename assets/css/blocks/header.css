@@ -37,33 +37,10 @@ header .title-logo a {
     color: white;
 }
 
+/* Navigation */
 .header-nav ul {
     list-style: none;
 }
-/*
-.header-nav ul li {
-    display: inline;
-    margin: 5px;
-    transition: border-bottom 400ms;
-    padding-bottom: 15px;
-}
-
-.header-nav ul li.active {
-    border-bottom: 4px solid #303f9f;
-}
-
-.header-nav ul li:hover {
-    border-bottom: 4px solid #303f9f;
-}
-
-.header-nav ul li a {
-    text-transform: uppercase;
-    text-decoration: none;
-    font-weight: 600;
-    padding: 0 0 10px 0;
-    color: white;
-}
-*/
 
 .header-nav li { 
     display: inline-block;
