@@ -89,7 +89,7 @@ header .title-logo a {
 
 .header-nav li a:after {
     backface-visibility: hidden;
-    border: 1px solid rgba(255, 255, 255, 0);
+    border: 1px solid #303f9f;
     bottom: -3px;
     content: " ";
     display: block;
@@ -101,18 +101,18 @@ header .title-logo a {
 
 .header-nav li a:hover:after {
     backface-visibility: hidden;
-    border-color: #0fdfe2;
+    border-color: #303f9f;
     transition: width 350ms ease-in-out;
     width: 100%;
 }
 
 .header-nav li a:hover {
-    color: #0fdfe2 !important;
+    color: #303f9f !important;
     outline: none;
 }
 
 .header-nav li  a.active {
-    color: #0fdfe2 !important;
+    color: #303f9f !important;
     outline: none;
 } 
 
