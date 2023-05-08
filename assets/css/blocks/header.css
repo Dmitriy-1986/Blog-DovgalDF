@@ -72,6 +72,7 @@ header .title-logo a {
 
 .header-nav li a {
     color: #fff !important;
+    font-weight: 600;
     font-size: 1.2em;
     padding: 0;
     position: relative; 
