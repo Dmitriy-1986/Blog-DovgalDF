@@ -67,7 +67,7 @@ header .title-logo a {
 
 .header-nav li { 
     display: inline-block;
-	margin:0 1.5em;
+    margin:0 1.5em;
 }
 
 .header-nav li a {
@@ -77,7 +77,7 @@ header .title-logo a {
     position: relative; 
     transition: 0.5s all;
     text-decoration: none;
-	font-weight: 300;
+    font-weight: 300;
 }
 
 .header-nav li a.active:after {
@@ -113,7 +113,7 @@ header .title-logo a {
 
 .header-nav li  a.active {
     color: #0fdfe2 !important;
-	outline: none;
+    outline: none;
 } 
 
 /* Header Title */
