@@ -89,8 +89,8 @@ header .title-logo a {
 
 .header-nav li a:after {
     backface-visibility: hidden;
-    border: 1px solid #303f9f;
-    bottom: -3px;
+    border: 2px solid #303f9f;
+    bottom: -10px;
     content: " ";
     display: block;
     margin: 0 auto;
