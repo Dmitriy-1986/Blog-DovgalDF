@@ -1,5 +1,5 @@
 const data = {
-    "blogName": "BLOG::DOVGAL D.F.",
+    "blogName": "BLOG",
     "navMenu": {
         "nameNavMenu": {
             "homePage": "ГЛАВНАЯ",
@@ -8,16 +8,16 @@ const data = {
         },
         "linkNavMenu": {
             "homePage": "./index.html",
-            "blogPage": "./blog.html",
+            "blogPage": "#",
             "aboutPage": "https://dovgaldima.pp.ua" 
         }
     },
-    "headerTitle": "БЛОГ О WEB - РАЗРАБОТКЕ",
+    "headerTitle": "БЛОГ",
     "freshArticle": "СВЕЖИЕ СТАТЬИ",
     "blogArticle": "БЛОГ",
     "blogArticleDescription": `Здесь вы найдете самые распространенные вопросы и 
-                                ответы в мире веб-разработки, которые помогут вам оставаться на плаву. 
-                                Эти статьи покрывают все, от <b>JavaScript</b> до <b>PHP</b>, и представлены в ярком и интересном формате.`,
+                                ответы в мире, которые помогут вам оставаться на плаву. 
+                                Эти статьи покрывают все и представлены в ярком и интересном формате.`,
     "cardsArticle": [
         {"linkPageInCard": "blog-page-name-1.html", "linkImgCard": "./assets/img/code.jpg", "titleCard": "Title Desc 1", "descriptionCard": "1 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, repellendus?"},
         {"linkPageInCard": "blog-page-name-1.html", "linkImgCard": "./assets/img/code.jpg", "titleCard": "Title Desc 2", "descriptionCard": "2 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, repellendus?"},
